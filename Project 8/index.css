@@ -1,0 +1,169 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#navbar{
+    position: sticky;
+    z-index: 10;
+    top: 0;
+    background: #fff;
+}
+.navbar-brand{
+    margin: 5px 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.navbar-nav li{
+    padding: 5px 10px;
+}
+.navbar-nav li a{
+    font-size: 20px;
+}
+#navbar ul li a:hover{
+    color: #007bff;
+}
+.navbar-toggler{
+    border: none;
+}
+#navbarNav button{
+    background: #007bff;
+    border-radius: 25px;
+    padding: 0 25px;
+    color: #fff;
+    margin-right: 40px;
+    margin-left: 20px;
+    font-size: 15px;
+}
+.main h1{
+    font-size: 50px;
+    margin: 170px 80px 0;
+    color: white;
+}
+.carousel-inner{
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(./12.png);
+    height: 80vh;
+    background-position: center;
+    background-size: cover;
+}
+.main button{
+    border: white solid 1px;
+    border-radius: 30px;
+    padding: 10px 40px;
+    background: transparent;
+    color: white;
+    font-size: 18px;
+    margin: 40px 100px;
+    transition: 0.7s;
+}
+.main button:hover{
+    background: #007bff;
+}
+.loginbox{
+    height: 450px;
+    width: 350px;
+    background: rgba(0, 0, 0, 0.4);
+    position: absolute;
+    top: 50%;
+    left: 80%;
+    transform: translate(-50%,-50%);
+    color: white;
+    padding: 0px;
+    border-radius: 30px;
+}
+h1{
+    padding: 20px 30px;
+    margin: 50px 90px 10px 90px;
+}
+form{
+    padding: 0px 40px;
+    margin: 40px 10px;
+}
+p{
+    margin-bottom: 15px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 25px;
+}
+input{
+    margin-bottom: 15px;
+    width: 100%;
+}
+input[type="text"],input[type="password"],input[type="number"]
+{
+    border: none;
+    border-bottom: 1px solid white;
+    background: transparent;
+    outline: none;
+    height: 30px;
+    color: white;
+    font-size: 17px;
+    margin-bottom: 10px;
+
+}
+input[type="submit"]
+{
+    border: none;
+    outline: none;
+    background: rgb(233, 41, 41);
+    height: 45px;
+    color: white;
+    font-size: 22px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    border-radius: 30px;
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+input[type="submit"]:hover{
+    cursor: pointer;
+    background: yellow;
+    color: black;
+    transition: 0.6s all ease;
+}
+#about{
+    margin: 70px 150px;
+    justify-items: center;
+    background: #efefef;
+    height: 250vh;
+}
+.all{
+    width: 90%;
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.first{
+    margin-left: 200px;
+    text-align: center;
+    width: 100%;
+}
+.first h1{
+    font-size: 40px;
+    margin: 40px 10px;
+    font-family: 'Fira Sans', sans-serif;
+}
+.first p{
+    font-size: 21px;
+    line-height: 1.6;
+    font-family: 'KoHo', sans-serif;
+}
+.second{
+    margin: 50px 200px;
+    width: 100%;
+}
+.second .fas{
+    margin-right: 15px;
+}
+.second h1{
+    font-size: 40px;
+    margin:  30px 5px;
+    font-family: 'Fira Sans', sans-serif;
+}
+.second li{
+    font-size: 21px;
+    margin: 20px;
+    line-height: 1.6;
+    font-family: 'KoHo', sans-serif; 
+}
+
+
+
+
